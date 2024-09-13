@@ -1,7 +1,7 @@
 # Overview
 This original project is a serveless solution designed to analyze the sentiment of YouTube video comments using AWS services. The project leverages AWS CDK (Cloud Development Kit) for Infrastructure as Code (IaC), making it easy to deploy and manage cloud resources. The architecture involves extracting comments from YouTube, processing them with AWS Comprehend for sentiment analysis, and storing the results in DynamoDB.This project is a sentiment analysis solution built using AWS services.
 
-# Piple/AWS Architecture
+# AWS Pipeline Architecture
 ![image](https://github.com/user-attachments/assets/dd19dc85-32f1-4fc8-834a-030b18f2d2c3)
 
 
