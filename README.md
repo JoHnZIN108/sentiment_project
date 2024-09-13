@@ -18,5 +18,7 @@ Infrastructure:
 
 The AWS CDK is used to define and deploy the infrastructure components, including Lambda functions, Kinesis Data Stream, EventBridge rules, and DynamoDB tables.
 
+This project leverages the AWS CDK bootstrapping, which means that the IAM roles and other required resources are automatically created and managed by CDK.
+
 # Notes
 Before deploying, you need to install and zip the youtube_scraper_lambda.py with the pandas and google-api-python-client dependencies.
