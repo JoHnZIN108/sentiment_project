@@ -3,7 +3,6 @@ import json
 import googleapiclient.discovery
 import pandas as pd
 import os
-import os
 
 api_service_name = "youtube"
 api_version = "v3"
