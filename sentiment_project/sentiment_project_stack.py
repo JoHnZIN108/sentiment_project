@@ -57,7 +57,7 @@ class SentimentProjectStack(Stack):
 
         # Create EventBridge rule to invoke youtube_scraper_lambda function every 5 minutes
         rule = events.Rule(self, "Rule",
-                           schedule=events.Schedule.rate(Duration.minutes(1)),
+                           schedule=events.Schedule.rate(Duration.minutes(5)),
                            targets=[targets.LambdaFunction(youtube_scraper_lambda)]
                            )
         
