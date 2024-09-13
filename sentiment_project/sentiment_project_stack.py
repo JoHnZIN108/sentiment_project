@@ -1,7 +1,7 @@
 from constructs import Construct
 from aws_cdk import (
     Duration,
-    Stack,\
+    Stack,
     aws_lambda as lambda_,
     aws_events as events,
     aws_kinesis as kinesis,
